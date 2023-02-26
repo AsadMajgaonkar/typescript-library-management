@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My-Library</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1>Library Logger</h1>
+
+    <!-- output list -->
+    <ul class="item-list">
+      
+    </ul>
+  </div>
+
+  <footer>
+    <form class="new-item-form">
+      <div class="field">
+        <label>Genre:</label>
+        <select id="genre" class="input">
+          <option value="thriller">Thriller</option>
+          <option value="romance">Romance</option>
+          <option value="adventure">Adventure</option>
+          <option value="horror">Horror</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Book:</label>
+        <input type="text" id="book" class="input">
+      </div>   
+      <div class="field">
+        <label>Author:</label>
+        <input type="text" id="author" class="input">
+      </div>
+      <div class="field">
+        <label>Stock:</label>
+        <input type="number" id="stock" class="input">
+      </div>
+      <div class="field">
+        <label>Price:</label>
+        <input type="number" id="price" class="input">
+      </div>
+      <button>Add</button>
+    </form>
+  </footer>
+
+  <script>var exports = {};</script>
+  <script type="module" src='index.js'></script>
+</body>
+</html>
